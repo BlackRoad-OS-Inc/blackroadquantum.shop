@@ -1,0 +1,25 @@
+{
+  "name": "blackroadquantum.shop",
+  "org": "BlackRoad-OS-Inc",
+  "category": "commerce",
+  "title": "BlackRoad Quantum Shop",
+  "deploy": {
+    "target": "gematria",
+    "path": "/var/www/blackroad/blackroadquantum.shop",
+    "ssl": "auto",
+    "cdn": true
+  },
+  "mirrors": {
+    "gitea": "https://git.blackroad.io/BlackRoad-OS-Inc/blackroadquantum.shop",
+    "github": "https://github.com/BlackRoad-OS-Inc/blackroadquantum.shop"
+  },
+  "ci": {
+    "on_push": ["build", "deploy"],
+    "on_pr": ["lint", "audit"]
+  },
+  "monitoring": {
+    "uptime": true,
+    "analytics": "roadanalytics",
+    "alerts": "nats"
+  }
+}
