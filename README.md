@@ -1,5 +1,13 @@
 # blackroadquantum.shop
 
+> BlackRoad OS, Inc. — blackroadquantum.shop domain repo. Proprietary.
+
+Part of the [BlackRoad OS](https://blackroad.io) ecosystem — [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
+
+---
+
+# blackroadquantum.shop
+
 > Quantum products marketplace. Hardware, kits, education.
 
 ## About
